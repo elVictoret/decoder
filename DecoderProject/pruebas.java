@@ -1,19 +1,8 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class pruebas {
+public static void pruebas (String[] args) {
 	
-	static Utils utils = new Utils();
-	
-	public static void main(String[] args) {
+	static Utils utils = new Utils();	
 
-	System.out.println(utils.binaryToDecimal(1000));
-	
-	String test = "xxaxx";
-	
-	System.out.println((char) 97);
-	
 	}
-			
-	
-}

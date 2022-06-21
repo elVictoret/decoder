@@ -1,10 +1,17 @@
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.util.Scanner;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JTextField;
 
 public class Main {
 	public static void main(String[] args) {
 		
-		Decoder decoder = new Decoder();
 		Utils utils = new Utils();
+		gui gui = new gui();
+		//gui.environment();
 		
 		boolean exit = false;
 		
@@ -25,15 +32,15 @@ public class Main {
 				System.out.println("Bye!");
 				break;
 			case 1:
-				decoder.base64();
+				b64.base64();
 				again();
 				break;
 			case 2:
-				decoder.base32();
+				b32.base32();
 				again();
 				break;
 			case 3:
-				decoder.rot13();
+				rot13.rot13();
 				again();
 				break;
 			
